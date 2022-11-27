@@ -1,0 +1,23 @@
+//Accessing db from file
+sqlite3 SQLite.db
+
+//run a list of commands to prime, seed and drop tables
+sqlite3 SQLite.db < setup_tables.sql
+sqlite3 SQLite.db < seed_tables.sql
+sqlite3 SQLite.db < drop_tables.sql
+
+
+//From within the sqlite3 editor
+
+// list all tables in db
+SELECT name FROM sqlite_schema WHERE type='table' ORDER BY name;
+
+//list all triggers
+SELECT name FROM sqlite_master WHERE type = 'trigger';
+
+//drop trigger
+DROP TRIGGER trigger_name;
+
+
+
+
