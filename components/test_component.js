@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, Button } from 'react-native';
 
-import { Context } from '../data_handler/context';
+import { Context } from '../database_handler/context';
 
 
 export function Test() {

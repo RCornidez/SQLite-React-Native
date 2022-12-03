@@ -10,5 +10,8 @@ npm-debug.*
 *.orig.*
 web-build/
 
+# custom
+raw_sql_not_used/
+
 # macOS
 .DS_Store

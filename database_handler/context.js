@@ -19,7 +19,12 @@ export var database = {
         draft_sessions: [],
     },
 
-} //grab the initial state from db
+} 
+
+
+
+
+
 
 // reducer handles the logic for updating the database and returning updates to state
 //Consider this something similar to API endpoints
